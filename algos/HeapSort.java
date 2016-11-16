@@ -1,14 +1,12 @@
-package codeforces;
-
 import java.io.*;
 import java.util.*;
 
-public class ChatRoom58A {
+public class HeapSort {
   BufferedReader in;
   PrintWriter out;
   StringTokenizer st;
 
-  public ChatRoom58A() throws IOException{
+  public HeapSort() throws IOException{
     in = new BufferedReader(new InputStreamReader(System.in));
     out = new PrintWriter(System.out);
     solve();
@@ -21,32 +19,23 @@ public class ChatRoom58A {
     return st.nextToken();
   }
 
-  public int nextInt() throws IOException { return Integer.parseInt(next());  }
+  public Integer nextInt() throws IOException { return Integer.parseInt(next());  }
   public long nextLong() throws IOException { return Long.parseLong(next()); }
   public double nextDouble() throws IOException { return Double.parseDouble(next()); }
 
-
-
   public void solve() throws IOException {
-    String word = "hello";
-    String line = in.readLine();
-    int pA = 0, pB = 0;
-    while(pA < word.length() && pB < line.length()) {
-      if (word.charAt(pA) == line.charAt(pB)) {
-        pA++;
-        pB++;
-      } else {
-        pB++;
-      }
+    int n = nextInt();
+    MinHeap heap = new MinHeap(n);
+    for (int i = 0; i < n; i++)
+      heap.add(nextInt());
+
+    while(!heap.isEmpty()) {
+      out.print(heap.pop() + " ");
     }
-    if (pA == word.length()) {
-      out.println("YES");
-    } else {
-      out.println("NO");
-    }
+    out.println();
   }
 
   public static void main (String [] args) throws IOException {
-    new ChatRoom58A();
+    new HeapSort();
   }
 }

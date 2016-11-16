@@ -1,5 +1,3 @@
-package hackerrank.bfsshortreach;
-
 import java.util.*;
 
 public class Solution {

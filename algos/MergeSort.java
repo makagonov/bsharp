@@ -1,6 +1,3 @@
-package sorting;
-
-
 class MergeSort {
   private static Comparable [] temp; //temporary array
 

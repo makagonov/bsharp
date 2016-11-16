@@ -1,5 +1,3 @@
-package ds.heap;
-
 public class MinHeap {
   Comparable [] heap;
   int heapSize;
