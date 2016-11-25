@@ -38,7 +38,9 @@ public class LinkedList<T> implements Iterable<T> {
 
     @Override
     public T next() {
-      return first.data;
+      T data = first.data;
+      first = first.next;
+      return data;
     }
   }
 
