@@ -45,10 +45,10 @@ public class RabinKarp {
     for (int i = 1; i <= text.length(); i++) {
       primePowers[i] = primePowers[i - 1] * P;
     }
-    
-    allPrefixHashes[0] = (text.charAt(0) - 'a');
-    for (int i = 1; i < text.length(); i++) {
-      allPrefixHashes[i] = allPrefixHashes[i - 1] + (text.charAt(i) - 'a') * primePowers[i];
+    long hash = 0;
+    for (int i = 0; i < text.length(); i++) {
+      hash += (text.charAt(i) - 'a' + 1) * primePowers[i];
+      allPrefixHashes[i] = hash;
     }
   }
   
@@ -61,7 +61,7 @@ public class RabinKarp {
   private Hash getStringHash(String s) {
     long hash = 0L;
     for (int i = 0; i < s.length(); i++) {
-      hash += (s.charAt(i) - 'a') * primePowers[i];
+      hash += (s.charAt(i) - 'a' + 1) * primePowers[i];
     }
     return new Hash(hash, 0);
   }
