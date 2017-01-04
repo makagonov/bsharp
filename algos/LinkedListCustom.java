@@ -1,6 +1,6 @@
 import java.util.Iterator;
 
-public class LinkedList<T> implements Iterable<T> {
+public class LinkedListCustom<T> implements Iterable<T> {
   private Node first;
   private int size;
 
@@ -45,7 +45,7 @@ public class LinkedList<T> implements Iterable<T> {
   }
 
   public static void main (String [] args) {
-    LinkedList<Integer> l = new LinkedList<Integer>();
+    LinkedListCustom<Integer> l = new LinkedListCustom<Integer>();
     for (int i = 0; i < 10; i++) {
       l.addFirst(i);
     }
