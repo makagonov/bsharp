@@ -39,7 +39,7 @@ public class PieProgress {
       }
     }
     
-    for (int i = 0; i <= Math.min(n, m); i++) {
+    for (int i = 1; i <= Math.min(n, m); i++) {
       dp[1][i] = sums[1][i];
     }
     
