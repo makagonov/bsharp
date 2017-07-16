@@ -175,7 +175,7 @@ Service instances have dynamically assigned IPs + the set of service instances c
 Client is responsible for detecting location and load balancing requests. First queries service registry (database of available service instances), then uses a load-balancing algorithm.
 
 Client-side discovery ([Netflix Ribbon](https://github.com/Netflix/ribbon/wiki) is used as a load balancer (has multiple load balancing techniques), [Netflix Eureka](https://github.com/Netflix/eureka) used for service discovery):
-![IMAGE](resources/AEF8A60FF24FE334172FB04B48F2A885.jpg =400x)
+<img src="resources/AEF8A60FF24FE334172FB04B48F2A885.jpg" width="400"/>
 
 Service instances are registered with it starts up, removed when terminated. Heartbeat mechanism.
 Example: 
@@ -191,7 +191,8 @@ Example:
 ## Server-side discovery pattern
 
 Server-side discovery:
-![IMAGE](resources/971CC12C0273BF9E2F714485FD133203.jpg =400x)
+
+<img src="resources/971CC12C0273BF9E2F714485FD133203.jpg" width="400"/>
 
 Lifecycle:
 1. client makes request to a service via load balancer
@@ -315,7 +316,7 @@ Drawbacks: less efficient resource utilization. Each service has an overhead of 
 ## Service instance per container pattern
 Each service instance runs in its own container. Containers are a virtualization mechanism at the operating system level. Consists of one or more processes running in a sandbox. They have **their own port namespaces and root filesystem**. You can limit container's memory and CPU resources, and some of the implementations also have I/O rate limiting. Example: Docker.
 
-![IMAGE](resources/91FE18425DEC27DA40AF8D2DB323BD4D.jpg =384x)
+<img src="resources/91FE18425DEC27DA40AF8D2DB323BD4D.jpg" width="384"/>
 
 Some container images consist of a complete Linux root filesystem. Others, like Java apps, can contain an apache tomcat server and compiled java app.
 
@@ -351,7 +352,7 @@ Drawbacks:
 Don't use "Big Bang" rewrite from scratch, instead - incrementally rewrite monolith into microservices.
 ## Strategy #1 - Stop digging
 In other words - stop making monolith bigger. New functionality should go into separate microservice.
-![IMAGE](resources/4072033AF45C59FAE35EA2444C8E4A90.jpg =384x)
+<img src="resources/4072033AF45C59FAE35EA2444C8E4A90.jpg" width="384"/>
 Legacy requests are routed to Monolith, new requests - to the new MS. Glue code is responsible for data integration.
 
 Strategies for MS to access the monolith's data:
