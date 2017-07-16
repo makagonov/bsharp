@@ -56,7 +56,9 @@ Chat are distributed between clusters. Users in different clusters cannot commun
 Load balancer balances the load between identical hosts
 Use Erlang for XMPP server implementation
 Form a fully connected cluster where each Erlang VM maintains a single persistent TCP connection to each other chat server.
-![IMAGE](resources/8174781AECE482ED1B4F2842FE4A4DBD.jpg =300x)
+
+<img src="resources/8174781AECE482ED1B4F2842FE4A4DBD.jpg" width="300" />
+
 Servers also share a fully replicated internal tables via Erlang-distributed store called Mnesia. These tables map player or group JIDs to Erlang **session handler processes** that maintain context-specific data.
 For individuals: includes connection socket, friends list, block list, rate limiters;
 For groups chats: room roaster and chat history.
