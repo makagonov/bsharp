@@ -175,6 +175,7 @@ Service instances have dynamically assigned IPs + the set of service instances c
 Client is responsible for detecting location and load balancing requests. First queries service registry (database of available service instances), then uses a load-balancing algorithm.
 
 Client-side discovery ([Netflix Ribbon](https://github.com/Netflix/ribbon/wiki) is used as a load balancer (has multiple load balancing techniques), [Netflix Eureka](https://github.com/Netflix/eureka) used for service discovery):
+
 <img src="resources/AEF8A60FF24FE334172FB04B48F2A885.jpg" width="400"/>
 
 Service instances are registered with it starts up, removed when terminated. Heartbeat mechanism.
