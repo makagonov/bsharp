@@ -1,4 +1,47 @@
-# Staff Engineer's Path
+- [Chapter 5. Leading Big Projects](#chapter-5-leading-big-projects)
+  * [The Start of a Project](#the-start-of-a-project)
+  * [Building Context](#building-context)
+  * [Giving your project structure](#giving-your-project-structure)
+    + [Defining roles](#defining-roles)
+    + [Rercruiting people](#rercruiting-people)
+    + [Agreeing on scope](#agreeing-on-scope)
+    + [Estimating time](#estimating-time)
+    + [Agreeing on logistics](#agreeing-on-logistics)
+    + [Having a kickoff meeting](#having-a-kickoff-meeting)
+  * [Driving the project](#driving-the-project)
+    + [Exploring](#exploring)
+    + [Important aspects of the project](#important-aspects-of-the-project)
+    + [Possible approaches to take](#possible-approaches-to-take)
+    + [Clarifying](#clarifying)
+    + [Mental models](#mental-models)
+    + [Naming](#naming)
+    + [Pictures and graphs](#pictures-and-graphs)
+  * [Designing. What goes in an RFC?](#designing-what-goes-in-an-rfc)
+    + [Context](#context)
+    + [Goals (or justfication)](#goals-or-justfication)
+    + [Design](#design)
+    + [Security/privacy/compliance](#securityprivacycompliance)
+    + [Alternatives considered/prior art](#alternatives-consideredprior-art)
+    + [Tradeoffs](#tradeoffs)
+    + [Risks](#risks)
+    + [Dependencies](#dependencies)
+    + [Operations](#operations)
+  * [Technical pitfalls](#technical-pitfalls)
+    + [This looks easy](#this-looks-easy)
+    + [Building for the present](#building-for-the-present)
+    + [Building for distant, distant future](#building-for-distant-distant-future)
+    + [Every user just needs to...](#every-user-just-needs-to)
+    + [We'll figure out the difficult part later](#well-figure-out-the-difficult-part-later)
+    + [Solving the small problem by making the big problem more difficult](#solving-the-small-problem-by-making-the-big-problem-more-difficult)
+    + [But is it operable?](#but-is-it-operable)
+    + [Dicussing the smallest decisions the most](#dicussing-the-smallest-decisions-the-most)
+  * [Coding](#coding)
+    + [Should you code on the project?](#should-you-code-on-the-project)
+    + [Be an examplar, but not a bottleneck](#be-an-examplar-but-not-a-bottleneck)
+  * [Communicating](#communicating)
+    + [Talking to each other](#talking-to-each-other)
+    + [Sharing status](#sharing-status)
+    + [Navigating](#navigating)
 
 # Chapter 5. Leading Big Projects
 
@@ -143,7 +186,7 @@ People who will be kept up to date on progress.
 
 Alternative approach: team leader Venn Diagram, which has overlapping circles for the stories of “what,” “how,” and “why,”:
 
-![Image.tiff](resources/Image.tiff)
+![1_OFx_KNrvHaSvj3SG86fhow.png](resources/1_OFx_KNrvHaSvj3SG86fhow.png)
 
 If you’re the project lead, **you are ultimately responsible for the project**. That means **you’re implicitly filling any roles that don’t already have someone in them:**
 
@@ -234,7 +277,7 @@ Driving, can’t be passive: it’s an active, deliberate, mindful role. It mean
 
 Exploration phase is important. If you’re creating a design where it’s difficult to articulate the goals (or if the goals are just a description of your implementation!), that’s a sign that you haven’t spent enough time in this exploration stage.
 
-### What are the important aspects of the project?
+#### Important aspects of the project
 
 The bigger the project, the more likely it is that different teams have different mental models of what you're trying to achieve, what will be different once you've achieved it, and what approach you're all taking. Some teams have constraints that you don't know about, or unspoken assumptions about the direction the project will take. **They might have only agreed to help you because they think your project will also achieve some other goal they care about - and they might be wrong!**
 
@@ -244,7 +287,7 @@ Aligning the problem will involve **talking to your users and stakeholders** - a
 
 As you explore, and uncover expectations, you'll start building up a crisp definition of what you're doing.
 
-#### What possible approaches can you take?
+#### Possible approaches to take
 
 Once you have a clear story for what you're trying to do, **only then figure out how to do it**.
 
@@ -256,7 +299,7 @@ Try to keep an open mind about how you're solving the problem until you have agr
 
 A big part of starting the project will be **giving everyone mental models for what you're all doing**.
 
-### Mental models
+#### Mental models
 
 Mental models are how we understand the world. Not only do they shape what we think and how we understand but they shape the connections and opportunities that we see. Mental models are how we simplify complexity, why we consider some things more relevant than others, and how we reason.
 
@@ -264,11 +307,11 @@ A mental model is simply a representation of how something works. We cannot keep
 
 As you describe the project you want to complete, you'll likely have a bunch of abstract concepts that aren't easy to understand without a whole lot of knowledge in the domain you are working in. Give people a head start by **providing a convenient, memorable name for the concept, using an analogy, or connecting it back to smth they already understand.**
 
-### Naming
+#### Naming
 
 Two people can use the same words and mean quite different things.
 
-### Pictures and graphs
+#### Pictures and graphs
 
 If you really want to reduce complexity, use pictures. If something is changing - provide a set of **before and after pictures that can be clearer than an entire essay**.
 
@@ -358,7 +401,7 @@ Think about how you can solve the smaller problems without this. Sometimes, if y
 
 If you struggle to remember how something works at 3pm, you won't understand it at 3am. Aim to make systems **observable and debuggable**. Decide who's going to be oncall and **put that in RFC**.
 
-#### Dicussing the smallest decisions the most
+### Dicussing the smallest decisions the most
 
 Classic bikeshedding problem.
 
