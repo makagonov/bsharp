@@ -143,7 +143,7 @@ People who will be kept up to date on progress.
 
 Alternative approach: team leader Venn Diagram, which has overlapping circles for the stories of “what,” “how,” and “why,”:
 
-![Image.tiff](Staff%20Engineer's%20Path.assets/Image.tiff)
+![Image.tiff](resources/Image.tiff)
 
 If you’re the project lead, **you are ultimately responsible for the project**. That means **you’re implicitly filling any roles that don’t already have someone in them:**
 
