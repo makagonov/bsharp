@@ -1,7 +1,7 @@
-#### Chapter 5. Leading Big Projects
+### Chapter 5. Leading Big Projects
 
 
-##### The Start of a Project
+#### The Start of a Project
 
 
 You are in charge of figuring out who will do what, what needs to be done.
@@ -36,7 +36,7 @@ Five things to make a new project a little less overwhelming:
 	- if you tend to go first with relationships - talk to people
 	- if you are a reader - go get the documents
 
-##### Building Context
+#### Building Context
 
 
 Take on mapping exercise from Chapter 2. Build your ***locator map***: putting the work in perspective; understanding the goals, constraints, and history of the project; and being clear about how it ties back to business goals.
@@ -94,7 +94,7 @@ Points of context to clarify for yourself and others:
 	- or maybe your project is a sub-project of a bigger project and you'll be a sublead
 	- it's vital to build **good working relationships** with other leaders and help each other out
 
-##### Giving your project structure
+#### Giving your project structure
 
 
 ##### Defining roles
@@ -302,7 +302,7 @@ Topics to cover:
 - What you want people to do
 - How people can ask questions and find out more
 
-##### Driving the project
+#### Driving the project
 
 
 Driving, can’t be passive: it’s an active, deliberate, mindful role. It means choosing your route, making decisions, and reacting to hazards on the road ahead. If you’re the project lead, you’re in the driver’s seat. You’re responsible for getting everyone safely to the destination
@@ -351,12 +351,12 @@ As you describe the project you want to complete, you'll likely have a bunch of 
 
 Two people can use the same words and mean quite different things.
 
-##### Picture and graphs
+##### Pictures and graphs
 
 
 If you really want to reduce complexity, use pictures. If something is changing - provide a set of **before and after pictures that can be clearer than an entire essay**.
 
-##### Designing. What goes in an RFC?
+#### Designing. What goes in an RFC?
 
 
 ##### Context
@@ -423,7 +423,7 @@ What are you expecting from other teams? ***Do they know you're coming?***
 
 Who will run it? How to monitor? If backup or disaster recovery needed - who will run it?
 
-##### Technical pitfalls
+#### Technical pitfalls
 
 
 ##### This looks easy
@@ -466,7 +466,7 @@ If you struggle to remember how something works at 3pm, you won't understand it 
 
 Classic bikeshedding problem.
 
-##### Coding
+#### Coding
 
 
 ##### Should you code on the project?
@@ -504,7 +504,7 @@ Code reviews:
 
 A staff+ engineer is an example for others - whatever you do will set expectations for the team. ***If you are the most senior person on the team and you are sloppy, you're going to have a sloppy team.***
 
-##### Communicating
+#### Communicating
 
 
 Communicating well is the key to delivering a project in time.
