@@ -1,3 +1,33 @@
+- [Chapter 2. Three maps](#chapter-2-three-maps)
+  * [Locator map](#locator-map)
+  * [Seeing Bigger](#seeing-bigger)
+    + [Taking the outside view](#taking-the-outside-view)
+    + [Escaping the echo chambers](#escaping-the-echo-chambers)
+    + [What's actually important](#whats-actually-important)
+    + [What do customers care about?](#what-do-customers-care-about)
+    + [Have your problems been solved before?](#have-your-problems-been-solved-before)
+  * [Topographical map](#topographical-map)
+    + [Understanding your org's culture](#understanding-your-orgs-culture)
+      - [Secret or open?](#secret-or-open)
+      - [Oral or written?](#oral-or-written)
+      - [Top-down or bottom up?](#top-down-or-bottom-up)
+      - [Back channels or front doors?](#back-channels-or-front-doors)
+      - [Allocated or available?](#allocated-or-available)
+      - [Liquid or crystallized?](#liquid-or-crystallized)
+    + [Power, rules, or mission?](#power-rules-or-mission)
+    + [Points of interest on the topo map](#points-of-interest-on-the-topo-map)
+      - [Fortresses](#fortresses)
+      - [Disputed territory](#disputed-territory)
+      - [Uncrossable deserts](#uncrossable-deserts)
+      - [Paved roads, shortcuts, and long ways around](#paved-roads-shortcuts-and-long-ways-around)
+    + [What points of interest are on your map?](#what-points-of-interest-are-on-your-map)
+      - [How are decisions made?](#how-are-decisions-made)
+      - [Where is the room?](#where-is-the-room)
+      - [Asking to join in](#asking-to-join-in)
+      - [The shadow org chart](#the-shadow-org-chart)
+    + [Keeping your topo map up to date](#keeping-your-topo-map-up-to-date)
+  * [If the terrain is still difficult to navigate, be a bridge](#if-the-terrain-is-still-difficult-to-navigate-be-a-bridge)
+  * [Treasure map](#treasure-map)
 - [Chapter 5. Leading Big Projects](#chapter-5-leading-big-projects)
   * [The Start of a Project](#the-start-of-a-project)
   * [Building Context](#building-context)
@@ -42,6 +72,192 @@
     + [Talking to each other](#talking-to-each-other)
     + [Sharing status](#sharing-status)
     + [Navigating](#navigating)
+
+# Chapter 2. Three maps
+
+Locator map - where you are at.
+
+Topographical map - terrain and obstacles map.
+
+Treasure map - X marks of where the treasure is (could be milestones of a project).
+
+These three maps already exist, they are just obscured. As you build context, you'll uncover everyone's goals. Think of it like a fog of war in a video game, where you can't see what awaits you in the parts of the map you haven't explored yet. As you scout around, you clear the fog and get a better picture of the terrain.
+
+If you can train your brain to say "That's interesting!" and remember facts that you might need later on, you'll start to add detail to your maps and build skills in synthesizing new information.
+
+Think of gathering context as a skill to build as part of your job.
+
+## Locator map
+
+As you undestand people, the problems, and the goals, you'll become more focused on them. That focus brings depth and understanding, but it comes with some risks:
+
+- prioritizing badly - when everyone around you cares about the same set of things, it's easy to magnify the importance of those things. The problems that that exist outside of your group can start to appear simple or unimportant by comparison.
+- losing empathy - you can lose it for the work other teams are doing: "That problem they're solving is easy. I could solve it in a weekend". The words you use, the things you choose to explain versus those you leave implicit, and the **motivations you ascribe to other people will all be influenced by your perspective**.
+- tuning out the background noise - things keep popping up so you stop noticing and objectively react to something that you might need to react quickly
+
+## Seeing Bigger
+
+Open up your company's org chart and look at wher your group and others you care about connect ot the rest of the organization. When you extend the amounf of the map you can see, your own group might seem a lot smaller, and your "You are here" pin might feel far fro where the action is.
+
+### Taking the outside view
+
+When the new person on your team looks at an architectural tangle or a pile of technical debt, they have no historical context. A new person can always see the problems. They haven't been around for the gradual change and the boiling frogs: they're just seeing the raw situation as it is.
+
+Being new isn't a license to be a jerk though.
+
+### Escaping the echo chambers
+
+Build friendly relationships with other staff engineers. Get to a point where you can speak the truth to one another, and it won't be contentious, because you've built up so much goodwill. Think of the **other staff engineers as your team.**
+
+Go beyond engineering: build relationships with product folks, customer support, administrative staff, and more.
+
+### What's actually important
+
+As an engineer, it's easy to get absorbed in technology. Don't forget you're here to help your employer to achieve its goals. You should know the goals and **what's important.** You may try making everyone care about your upgrade or smth, while it's negligible when looking at a bigger picture.
+
+### What do customers care about?
+
+***Nines don't matter when users are not happy.*** Users don't care about DS this, ISP that. At the end of the day, you need to measure success from your users' point of view. If you don't understand your customer, you don't have real perspective on what's important.
+
+### Have your problems been solved before?
+
+Many problems are not essentially new. You'll come up with better solutions if you study what other people have already done before creating some new thing. Remember that your goal is to solve the problem, **not necessarily to *write code* to solve it**. Take time to understand what already exists - inside and outside your organization - before including something new.
+
+Industry perspective - understand how other people in the industry have solved the problems you're working on.
+
+## Topographical map
+
+Why is important and what are the challenges *if you don't have a terrain map*:
+
+- ***your good ideas don't get traction***. Being right is less than half the battle - you need to convince people to care that you're right. Figure out sponsors, how to get it over the finish line
+- ***you don't find out about the difficult parts until you get there***. If you know where people had difficulties before, you cna take a different path and solve the hardest problem first, so other people get convinced that the project is worth their effort.
+- **everything takes longer.** Mechanics of your organization will affect you, and decisions that are straightforward may take months or quarters.
+
+### Understanding your org's culture
+
+Engineers sometimes dismiss org skills as "politics", but these skills are part of good engineering. Yes, there are company values, but they are just *aspirational*: **the real values of the company are reflected in what actually happens every day**.
+
+#### Secret or open?
+
+How much does everyone know? In secret orgs, information is currency and nobody gives it away easily. Often you can get access to something if you ask for it, but you have to know it exists!
+
+#### Oral or written?
+
+What gets shared by word of mouth, and what gets written down? Most workspaces are between "hallway convo" vs "formal specs to roll out a one-liner".
+
+#### Top-down or bottom up?
+
+Where do initiatives come from? Staff+ engineers should be fairly autonomous and self-directed, but make sure your organization agrees: **if your manager expects to approve where you spend your time, it can cause conflict if you don't check in**.
+
+#### Back channels or front doors?
+
+How people talk to each other? If people are friendly across teams, they'll send a DM when they have a question and share ideas over coffee.
+
+#### Allocated or available?
+
+How much time does everyone have? If teams are understaffed and overworked, you'll have trouble finding a foothold for any new idea that isn't on an existing product road map - the fatest and easiest response is just ot say no without really looking at the request.
+
+#### Liquid or crystallized?
+
+Where do power, status, and reputation come from? How do you gain trust? In crystalllized env, each person is like a node in a crystal lattice: so long as the people around you are moving up, you'll move up too.
+
+Let's be realistic: success still depends on having access to opportunities and sponsorship, so it's hugely affected by stereotype bias, in-group favoritism, and other cognitive biases.
+
+Try the slider diagram:
+
+<img src="resources/slider-diagram.png" alt= “” width="600">
+
+### Power, rules, or mission?
+
+Through their symbolic actions, as well as rewards and punishments, leaders communicate what they feel is important. These preferences then become the preoccupation of the org's workforce, because rewards, punishments, and resources follow the leader's preferences.
+
+### Points of interest on the topo map
+
+#### Fortresses
+
+Some of them are pretty tyrant, but many are well-intentioned, as they gatekeep because they ***care***. They are trying to keep the quality of code or architecture high and keep everyone safe.
+
+To pass through a fortress, you need one of the three:
+
+- token of sponsorship
+- know the pasword to lower the drawbridge (proving you've mitigated all of the risks of your proposed change, completing lengthy checklists and etc)
+- bloody battle where you argue every point and pull other people into the fight
+
+#### Disputed territory
+
+Multiple groups own parts of the system, eac saying "yes, as far as I know, but you should also ask.." and points to another team. Such teams' projects can fall into chaos if not aligned.
+
+#### Uncrossable deserts
+
+Sometimes you'll run into battles that other people consider unwinnable. Not to say you shouldn't try, but have enough evindence to convince others that this time will be different.
+
+#### Paved roads, shortcuts, and long ways around
+
+Official way is more complex than what knowledgeable people use. Like if everyone is directed towards an unpaved road with obstacles, while there is an open highway. People insist that the new, longer path will be better *soon*.
+
+### What points of interest are on your map?
+
+#### How are decisions made?
+
+When suddenly everyone is using a new acronym or holding a particular opinion, it can be hard to see where it came from. Project that once was promising is now dismissed as likely to fail. Why aren't they listening to your proposals? The truth is something that a lot of us struggle to make peace with: being technically correct about a direction is only the beginning.
+
+#### Where is the room?
+
+Decisions that affect you and your scope are happening every day, and it's uncomfortable if you kep being shocked by them. You should at least have a feeling for where they're coming from.
+
+There might not be a room at all - at most extreme cases, major decisions are made in one-on-ones with the most senior leader.
+
+#### Asking to join in
+
+Larsen's chapters are better for this.
+
+#### The shadow org chart
+
+Unwritten structures through which power and influence flow. This chart helps you understand who the influencers of the group are, and it's probably not the same as the actual org chart.
+
+### Keeping your topo map up to date
+
+On an average day, you might need to know that:
+
+- a team you depend on has a new lead
+- a project you've been waiting for isn't happening after all
+- quarterly planning is about to start
+- a useful new platform is launching
+- your product manager is about to go on an extended leave
+
+Ways to stay up to date are:
+
+- automated announcement lists and channels
+- walking the floor - find some avenues to stay attached to the work that teams around you are doing
+- lurking - cases for "isn't a secret exactly, but isn't necessarily for you". Includes reading senior people's calendars, skimming agendas or notes for meeting you are not in, looking at the full list of slack chanels sorted by most recently created so you can se what new projects are happening
+- making time for reading - read design docs
+- checkin in with your leadership - you need allies and sponsors. Check in often to hear behind-the-scenes updates and make sure the way they are thinking is aligned with the way your leaders are
+- talking with people - stepping out for coffee and a chat
+
+Networking doesn't have to by cynical or grubby.
+
+## If the terrain is still difficult to navigate, be a bridge
+
+It's important to make connections between parts of the org that otherwise would have enormous information gaps.
+
+Identify someone in the org whose work you don't understand and invite them to coffee or lunch.
+
+## Treasure map
+
+Gives us a compelling story of where we're going and why we want to get there. Let's go on an adventure!
+
+Think bigger - where are you trying to get to? Why are you doing any of this? Don't only look short-term, because otherwise:
+
+- it will be harder to keep everyone going in the same direction
+- you won't finish big things
+- you'll accumulate cruft/trash
+- you'll have competing initiatives
+- engineers stop growing
+
+When you know the real goal, you can step back and evaluate whether any proposed work will get you closer to it.
+
+
+
 
 # Chapter 5. Leading Big Projects
 
@@ -186,7 +402,8 @@ People who will be kept up to date on progress.
 
 Alternative approach: team leader Venn Diagram, which has overlapping circles for the stories of “what,” “how,” and “why,”:
 
-![1_OFx_KNrvHaSvj3SG86fhow.png](resources/1_OFx_KNrvHaSvj3SG86fhow.png)
+
+<img src="resources/1_OFx_KNrvHaSvj3SG86fhow.png" width="500">
 
 If you’re the project lead, **you are ultimately responsible for the project**. That means **you’re implicitly filling any roles that don’t already have someone in them:**
 
