@@ -288,3 +288,102 @@ Core approach (**pretty much a framework for rolling out a system that touches u
 6. send **programmatic nudges** for folks behind on their goals
 7. periodically review program status with your sponsor
 
+# Stay aligned with authority
+
+## Beyond the safety
+
+Retire your remaining expectations that the company is designed to set you up for success. Now ***you are one of the people responsible for setting the company, your team, and your manager up for success***. Most mature technology companies succeed in creating a predictable promotion pipeline from folks joining early in their careers up through attaining the Senior engineer title. The process of getting a Staff title is generally more complex than preceding titles but usually navigated with the support of your engineering manager. Throughout this pipeline, you may become comfortable with your manager guiding your development and providing a safety net for your continued success. After reaching a Staff role, your safety net will cease to exist, or at best, the safety net will be short enough that you're quite capable of jumping past it and into the awaiting chasm. This will be increasingly true as you go further into Senior Staff and Distinguished engineer roles. Staff-plus roles are leadership roles, and in leadership roles, the support system that got you here will fade away. Often abruptly, you're now expected to align the pieces around you for your own success.
+
+## Serving the pleasure of the President
+
+Authority flows from the tight association with greater authority, and it's a great mental model for operating in Staff-plus role.
+
+To align with your manager, some areas to focus on are:
+
+- **Never surprise your manager.**  Nothing destroys trust faster than surprising your manager. Treat each time you surprise your manager ***as*** ***an incident*** to be learned from and endeavor to prevent repeats.
+- **Don't let your sponsor surprise you**. Most people have expectations that manager will always remember to relay information relevant to your current work - that is not always the case! You should take proactive actions to faciliate the information flow. During 1:1s, dig for feedback!
+- **Feed your manager's context**. Help your manager not get surprised by the wider organization. If teams are frustrated with a new policy or your internal tools are not scaling with needs, proactively feed that to your manager. ***Be clear you are not bringing them a problem to solve, but rather conveying the info you believe will be useful***.
+
+## Influence without too much friction
+
+As you reach this next step of leadership, you increasingly have to merge your vision with those held by more senior organizational leaders.
+
+I recommend sharpening your awareness of the distinctions between the values that you hold and those that the organization operates under and find a way to advocate for them ***without getting kicked out of the room***.
+
+# To lead, you have to follow
+
+Defining leadership and management is such heavily trodden terrain that it?s hard to add much to it, but roughly management is a specific profession, and leadership is an approach one can demonstrate within any profession.
+
+If you only see the gap without acting on it, you might be a visionary, but you?re inert. If you take action without a clear view of the goal, many will consider you a leader, but your impact will be random, arbitrary, and inefficient. Combining both with some luck is likely to take you a long way in your career, and these are characteristics common in folks I?ve worked with who successfully navigate the transition into Staff-plus engineering or senior management roles.
+
+The lesson that I slowly learned was that you couldn?t be an effective long-term leader until you learn how to follow.
+
+The most effective leaders spend more time following than they do leading. Effective leaders don't split the world into a leader and follower dichotomy, rather they move in and out of leadership and follower roles with the folks around them.
+
+Ways to put this approach into practice:
+
+- Be clear with yourself what your true priorities are, and don?t dilute yourself across everything that comes up. If there's something you disagree with but only in a minor way, let others take the lead figuring it out. A helpful question here is, "Will what we do here matter to me in six months". If it won't, take the opportunity to follow.
+- Give your support quickly to other leaders who are working to make improvements.
+- Make your feedback explicitly non-blocking.
+
+# Learn to never be wrong
+
+As their tenure at a company increases, they may fancy that they've become very persuasive, but frequently it's a form of persuasion characterized by the resignation of their peers.
+
+A few of the technical leaders that I've worked with have found a way to never be wrong without dominating the room. To be right while creating space for others.
+
+## Listen, clarify and read the room
+
+A lot of times, you'll see engineers go into a discussion confident that their perspective is right and with the goal of getting other folks in the room to agree with their approach. This mentality turns each meeting into a zero-sum debate. Even in the "best case" that their approach is agreed upon, they didn't get to learn from anyone else in the room, and it's unlikely that the rest of the room is leaving energized. **The most effective engineers go into each meeting with the goal of agreeing on the problem at hand, understanding the needs and perspectives within the room, and identifying what needs to happen to align on an approach**.
+
+**Listening through questions** is a form of active listening with the goal of understanding the rest of the room's perspectives. Good questions are asked with the desire to learn, and they are specific. They sharpen the conversation.
+
+In a potentially contentious meeting, **ask three good questions before you share your perspective**, and you'll see the room shift around you.
+
+Good meetings start from a clear purpose and agenda, but many meetings don't meet that definition, particularly ad-hoc discussions. If you ever find yourself in a conversation with an unclear goal, then **define the purpose**. Take a moment to ask if your understanding of what the group hopes to accomplish is correct.
+
+Note that defining the purpose can be disruptive if it's used too frequently. For the most part, try to avoid using it if someone else has already made an attempt.
+
+Finally, in each meeting, you have to read the room. Oftentimes folks get frustrated with a conversation and try to force agreement, which creates so much pressure on the discussion that it's unlikely to conclude well.
+
+## How to practice
+
+The opportunity to practice is all around. Every comment on a document is an opportunity. Every meeting is an opportunity. Every pull request is an opportunity.
+
+## Jerks
+
+The two most effective ways to deal with jerks are:
+
+1. including someone they can't be a jerk to in the meeting (like their manager or the CTO)
+2. investing heavily into aligning with them before the meeting, so they feel heard and are less likely to derail the discussion
+
+# Create space for others
+
+It can be a difficult transition from essential to adjacent. This transition requires learning to deliberately create space for the team around you and comes down to actively involving them in discussions, decisions, and ultimately substituting sponsorship for repeating the successes that got you to Staff in the first place.
+
+## Discussions
+
+Techniques that I've found helpful in creating more space in discussions:
+
+- Shift your contribution towards asking questions. Asking the right questions helps avoid missteps, but also makes it easier for more folks to contribute
+- If you see someone in the meeting who isn't participating, pull them into the discussion.
+- Be the one to take notes.
+- If you realize someone's missing from the discussion who should be there, be the person to pull them into the next occurrence of the meeting.
+
+As you follow these more and more faithfully, ***your speaking in meetings will shrink, and your impact on the organization will grow.***
+
+## Decisions
+
+*Initially, I was thinking, I'll break it into twenty pieces, assign out eighteen pieces, and keep the two hardest for myself, and **my manager pushed me to delegate the hard pieces to the team to stretch and develop them**.*
+
+Take an incremental approach to shift increasingly complex and important decisions to your wider team:
+
+- **Write it down**. By writing down the process of finding an answer, as well as the rationale for the answer, folks around us can begin to learn from our decisions rather than simply being directed by them
+- **Circulate early**, and do it **before you've crystallized** on a decision.
+- **Separate style from substance**, and stop giving style feedback on other folks' decisions.
+- **Don't try to show value**. Some senior folks feel like they need to weigh in on everything to justify their seniority.
+- **Change your mind**. One of the biggest signs of respect for your coworkers is listening to them and then changing your mind afterward.
+
+# Build a network of peers
+
+More about networking outside of the company, following twitter accounts, joining Rands slack channel.
