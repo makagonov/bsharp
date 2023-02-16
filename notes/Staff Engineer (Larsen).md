@@ -387,3 +387,124 @@ Take an incremental approach to shift increasingly complex and important decisio
 # Build a network of peers
 
 More about networking outside of the company, following twitter accounts, joining Rands slack channel.
+
+# Present to executives
+
+
+Read before presenting to executives.
+
+# Promotion Package
+
+
+General template format for promotion to staff (**important!!!**):
+
+
+- what are your staff projects? What did you do? What was the project's impact (including a well-defined goal)? What made this project complex? Keep it very short and then link out to supporting design documents
+- What are the high-leverage ways you've improved the organization? 
+- What is the quantifiable impact of your projects? (Did you increase revenue by $10 million? Did you reduce year-on-year customer support tickets by 20%?)
+- Who have you mentored and through what accomplishments? 
+- What glue work do you do for the organization? What's the impact of that glue work?
+- Which teams and leaders are familiar with and advocates for your work? What do they value about your work? One sentence, include data (e.g. survey data) when possible
+- Do you have a real or perceived skill or behavior gaps that might hold you back? For each, how would you address the concern? One sentence each
+
+# Find your sponsor
+
+
+While you'll likely have a variety of sponsors, in the context of getting promoted, especially to a Staff-plus role, this almost always needs to be your direct manager.
+
+The first step of activating your sponsors is explicitly sharing your goals.
+
+Remember that activating your sponsor isn't a transactional thing to do once before your promotion. Build a relationship over time, and put in the work to help them when they need your support. Stay aligned with their initiatives.
+
+If you find yourself in a situation where you and your manager don't work together well, ***which isn't quite the same thing as liking each other***, **then you're not going to get promoted into a leadership role**. Your manager has too direct an influence on your impact and your perceived impact for that to happen. Similarly, you might have an amazing relationship with your manager, who then leaves the company. You're hardly doomed, but your promotion clock will likely get reset as you build a relationship with your new manager.
+
+Navigating not-ideal relationships with the manager is a learning opportunity too. You'll cheat yourself if you immediately try to switch teams or companies after running into friction with your manager. More importantly, you'll lose the opportunity to develop your skill of working with folks you don't immediately click with: it's not a fun skill to develop, but leadership always involves influencing and building relationships with those with conflicting goals and styles.
+
+# Staff projects
+
+
+The short answer on Staff projects is that **most engineers don't complete one as part of reaching a Staff role**, although a large minority do complete one, particularly folks who attain the role via promotion at a company they've grown up in. For the folks who don't complete one, typically, it's either because they accumulated a track record of success over a longer period without a single capstone or because they switched companies to reach the title.
+
+Why you should do a Staff project
+
+My advice is that although you can attain a Staff-plus role without completing a Staff project, they're a particularly valuable opportunity to develop yourself as an engineer. You will personally be stretched and grown by this kind of project in a way that you won't be by other varieties of Staff level work.
+
+There are a few typical characteristics that capture why they're so effective at stretching you as an engineer: 
+
+
+- **Complex and ambiguous** - early in your career, you're given well-defined problems, but as you get deeper into it, you'll increasingly encounter poorly defined or undefined problems, and Staff projects will generally start with a poorly scoped but complex and important problem
+- **Numerous and divided stakeholders** - the easiest projects start with organizational alignment around both the problem and the solution, but your Staff project might likely start with neither
+- **Named bet where failure matters** - it's going to be a project important enough that senior leadership talks about it at all-organization or all-company meetings
+
+# Get in the room and stay there
+
+
+To get into the room, you need:
+
+
+- To bring something useful to the room...
+- ...that the room doesn't already have
+- A sponsor in the room. These rooms have limited slots and have to function well as a group. To get into the room, you'll need someone to sponsor your membership. Your sponsor is allocating their social capital towards your inclusion, and their peers will judge them based on your actions within the room. These rooms often have a mix of seniority levels, so **it's often the case that your sponsor's manager is in the room evaluating them based on their decision to sponsor you**
+- Your sponsor needs to know you want to be there. They won't necessarily assume you want to be in any particular meeting, and in fact might assume you don't want to be there at all.
+
+On the other side of things, sometimes the easiest way to increase your value to the room is by decreasing the cost of including you. Some of the approaches that work well are: 
+
+
+- **Stay aligned with your manager.** Folks evaluate leaders on how aligned their teams are with their announced approach.
+- **Speak clearly and concisely**. Learn to speak with economy of speech
+- Be low friction. It's easy to fall into the trap of viewing each discussion as the last opportunity to stop an impending disaster. With that mindset, each discussion is a near-emergency, and emotions run high
+- **Come prepared**. Some companies infantilize their engineers, accepting that even very senior engineers won't read the agenda, do the pre-reads or prepare for the discussion.
+- **Focus and be present**. Once you've entered the room, be sure to show up and engage. Be attentive and engaged. Whatever else you want to be doing, it will wait.
+- **Volunteer for low-status tasks** (like taking notes)
+
+## Staying in the room
+
+
+There are a few patterns that will **consistently get you kicked out of the room**:
+
+
+- **Misunderstanding the room's purpose** - friction if try to use room against the existing group's intent. Here's how the room thinks of its role: "***we don't make decisions, just surface problems to discuss***"
+- **Being dogmatic (strongly opinionated)**
+- **Withholding consent**. You can often force a group towards your perspective by withholding your consent until thinking moves your way, but the group's pace will slow to a halt, and you'll likely get removed from it.
+- **Sucking the oxygen out of the room**. There are brainstorm discussions where every idea is welcome, and there are moments when you've shifted into operating mode to unblock project execution, and you have to read the room on which is happening.
+- **Embarrassing your sponsor**
+- **Being flakey or not showing up regularly**
+
+# Being visible
+
+
+Why visibility matters
+
+Staff-plus roles are leadership roles, and by recognizing you with such a position, the company is bringing you into its leadership team.
+
+## Internal visibility
+
+
+The single best way to create internal visibility is to work on the things that matter to your company and company leadership.
+
+Sometimes that isn't enough, though, and some other strategies are: 
+
+
+- Write and distribute more long-lived documents, like architecture docs or technical specification
+- Lead (and, to a lesser extent, participate in) company forums like architecture reviews, company all hands, and learning circles
+- Be a cheerleader for your team's and peers' work on Slack
+- You can also cheerlead via email instead of Slack 
+- Share weekly notes of your work to your team and stakeholders in a way that other folks can get access to your notes if they're interested 
+- Contribute to your company's blog 
+- Attend, or potentially even host, office hours for your team or org
+
+## Executive visibility
+
+
+These are the folks who tend to be in the room that approves promotions into Staff-plus roles, and they rarely support folks whose work they don't know.
+
+## External visibility
+
+
+Conference talks, etc.
+
+## Should *you* focus on visibility?
+
+
+At some point, increasing your visibility is likely reducing the opportunities for others to create visibility for themselves. Internal visibility is not strictly zero-sum, but it's constrained by the attention of the folks you want to see your work. My advice would be to use the promotion packet exercise to identify if the lack of visibility is likely to hold you back in the promotion process. If so, work to clear that threshold, but not much further.
+
