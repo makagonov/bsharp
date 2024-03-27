@@ -6,7 +6,7 @@
       * [Stop preening](#stop-preening)
       * [Stop chasing ghosts](#stop-chasing-ghosts)
    * [Existential issues](#existential-issues)
-         * [What only you can](#what-only-you-can)
+      * [What only you can](#what-only-you-can)
       * [Writing engineering strategy](#writing-engineering-strategy)
          * [Writing design docs](#writing-design-docs)
          * [Synthesising design docs into strategy](#synthesising-design-docs-into-strategy)
